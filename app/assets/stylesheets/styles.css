@@ -1,0 +1,45 @@
+ html,body{
+margin: 0px;
+
+}
+.blue{
+	background-color: #33b8ff;
+}
+.heading { 
+ 	color: #FF0000; }
+.btn{
+	background-color: inherit;
+	border: none;
+	outline: none;
+	border-style: solid;
+  	border-color: #33b8ff;
+	
+	cursor: pointer;
+
+}
+.be-blue{
+	background-color: #33b8ff;
+}
+.white{
+	color: white;
+}
+.large-padding{
+	padding: 10px 7px;
+}
+a,a:visited{
+color: inherit !important;
+text-decoration: none;
+}
+ul{list-style: none;}
+.field{
+	margin-top: 1em;
+}
+.form-control{
+	border: none;
+	border-bottom: 1px solid;
+	outline: none;
+	width: 100%;
+	display: block;
+	padding: 10px 0px;
+	font-size: 1.2em;
+}

@@ -1,0 +1,21 @@
+<h1> Artículos </h1>
+
+	<div class="row">
+			<% @articles.all.each do |article| %>
+				<div class="col-md-4">
+					<h2><%= article.title%></h2>
+					<p>
+						<%=truncate(article.text,length:20)%>
+					</p>
+
+					<p>
+						<%= link_to "Mostrar", article_path(article), class:"btn be-blue white larde-padding"%>
+						<%= link_to 'Editar', edit_article_path(article),class:"btn be-blue white larde-padding"%>
+						<%= link_to 'Eliminar',article_path(article),class:"btn be-blue white larde-padding",method: :delete,data: {confirm: '¿Estás segur@?'}%>
+
+					</p>
+				</div>
+			<%end%>
+	</div>
+					
+				

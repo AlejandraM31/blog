@@ -1,0 +1,65 @@
+.loginBox
+{
+	position: absolute;
+	top: 130%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width:  1330px;
+	height: 790px;
+	box-sizing: border-box;
+	background: rgba(250,250,250,.5);
+	font-weight: 800;
+	text-align: center;
+	padding: 30px;
+	
+
+}
+
+.loginBoxTwo
+{
+	padding: 30px;
+	position: absolute;
+	top: 230%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width:  1330px;
+	height: 360px;
+	box-sizing: border-box;
+	background: rgba(250,250,250,.5);
+	font-weight: 800;
+	text-align: center;
+
+}
+
+.loginBox3
+{
+	padding: 30px;
+	position: absolute;
+	top: 290%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width:  1330px;
+	height: 360px;
+	box-sizing: border-box;
+	background: rgba(250,250,250,.5);
+	font-weight: 8000;
+	text-align: center;
+
+}
+
+.loginBox4
+{
+	padding: 30px;
+	position: absolute;
+	top: 385%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width:  1330px;
+	height: 790px;
+	box-sizing: border-box;
+	background: rgba(250,250,250,.5);
+	font-weight: 800;
+	text-align: center;
+
+}
+

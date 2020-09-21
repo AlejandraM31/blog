@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ParteUno</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <header>
+    <nav class="be-blue  white large-padding">
+      <ul class="no-list row ">
+        
+        <li class="col-md">
+         <%= link_to 'Crear Articulo', new_article_path%>
+
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <%= yield %>
+</body>
+</html>

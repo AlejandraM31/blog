@@ -1,0 +1,22 @@
+<div style="width: 80%,margin: 0auto;">
+<%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+<div class="field">
+  <p>
+    <%= form.label :Comentarista %><br>
+    <%= form.text_field :commenter , placeholder: "Comentarista", class:"form-control"%>
+  </p>
+</div>
+<div class="field">
+  <p>
+    <%= form.label :Comentarios %><br>
+    <%= form.text_area :body, placeholder: "Escribe el comentario", style: "height:250px;", class:"form-control"%>
+  </p>
+</div>
+<div class="field">
+  <p>
+   <%=form.submit "Enviar", class:"  btn-primary btn-lg btn-block"%>
+
+  </p>
+</div>
+<% end %>
+</div>

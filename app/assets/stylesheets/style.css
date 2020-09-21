@@ -1,0 +1,75 @@
+html, #id_container {
+    height: 100%;
+    color: #18171c;
+    
+}
+body{
+
+
+    background-position: center center;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+    margin-top: 50px;
+    padding-left:35px;
+    padding-right: 35px;
+
+}
+
+.tablee{
+    color:#171a1d ;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.titulo{
+    color:#171a1d ;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+.sub{
+    color:#171a1d ;
+    text-align: center;
+    font-family: cursive;
+
+}
+.alerta{
+    color:#171a1d ;
+    text-align: center;
+    font-family: cursive;
+
+}
+.box{
+    background-color: rgba(245, 238, 248, .7);
+    border-radius: 10px;
+    padding: 15px;
+     
+
+}
+.box-content{
+    
+    border: solid 3px #f5f5dc;
+    border-radius: 5px;
+    padding: 20px;
+
+  
+}
+.space-left{
+    padding-left:35px !important;
+}
+.space-right{
+    padding-right:35px !important;
+}
+.botones{
+    margin-top: 30px;
+}
+#my_footer {
+  //position: absolute;
+  bottom: 0;
+  width: 98%;
+  height: 10%;
+  color: #fff;
+}
+

@@ -1,0 +1,29 @@
+<div style="width: 80%,margin: 0auto;">
+  <%= form_with model: @article, local: true do |form|%>
+      <% if @article.errors.any? %>
+        <div id='error_explanation'>
+          
+          <ul>
+            <% @article.errors.full_messages.each do |msg| %>
+              <li><%=msg %> </li>
+            <%end%>
+          </ul>
+        </div>
+      <% end%>
+      <p>
+        <div class="field">
+          <%= form.label :Titulo %><br>
+          <%= form.text_field :title, placeholder: "Título", class:"form-control"%>
+        </div>
+        <div class="field">
+          <%=form.label :Texto %><br>
+          <%=form.text_area :text, placeholder: "Escribe aquí el artículo", style: "height:250px;", class:"form-control"%>
+        </div>
+        <div class="field">
+          <%=form.submit "Enviar", class:"btn-primary btn-lg btn-block"%>
+        </div>
+      </p>
+
+
+  <%end%>
+</div>
